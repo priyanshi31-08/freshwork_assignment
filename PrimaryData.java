@@ -4,7 +4,7 @@ import java.util.Date;
 import org.json.JSONObject;
 
 public final class PrimaryData {
-		public static final String DataStoreLocation = "C:\\Users\\HARINI";
+		public static final String DataStoreLocation = "C:\\Users\\PRIYANSHI";
 
 		private String p_dataLoc = "";
 		private String p_dataName = "";
