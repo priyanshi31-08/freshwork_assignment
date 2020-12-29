@@ -6,9 +6,9 @@ import org.json.JSONObject;
 public class MainData {
 	public static void main(String[] args) throws JSONException  {
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("firstName", "Harini");
-		jsonObject.put("collegeName", "SKCET");
-		jsonObject.put("degree", "B.E");
+		jsonObject.put("firstName", "Priyanshi");
+		jsonObject.put("collegeName", "ATC");
+		jsonObject.put("degree", "B.Tech");
 		
 		//Create Opreation
 		System.out.println("CREATE"); 
@@ -25,7 +25,7 @@ public class MainData {
 			e.printStackTrace();
 		}
 		System.out.println("AFTER WAIT"); //After sleep time
-		jsonObject.put("pincode", "600125");
+		jsonObject.put("pincode", "452005");
 		System.out.println(Datas.create("two", jsonObject, 55));//Success
 		System.out.println(Datas.create("one", jsonObject));//Failure
 		System.out.println(Datas.create("two", jsonObject, 55));//Failure
